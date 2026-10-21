@@ -148,7 +148,7 @@ export const footer = {
     },
     {
       id: 4,
-      path: 'https://www.youtube.com/channel/UCjld1tyVHRNy_pe3ROLiLhw',
+      path: 'https://www.youtube.com/',
       image: '/assets/images/social/youtube.svg',
       name: 'youtube',
       width: 20,

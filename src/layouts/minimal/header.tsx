@@ -9,7 +9,6 @@ import Container from '@components/ui/container';
 import Logo from '@components/ui/logo';
 import UserIcon from '@components/icons/user-icon';
 import HeaderMenu from '@layouts/header/header-menu';
-import LanguageSwitcher from '@components/ui/language-switcher';
 import { useModalAction } from '@components/common/modal/modal.context';
 import cn from 'classnames';
 import Search from '@components/common/search';
@@ -56,9 +55,6 @@ function Header({ lang }: { lang: string }) {
             lang={lang}
           />
           <div className="flex shrink-0 -mx-2.5 xl:-mx-3.5">
-            <div className="xl:mx-3.5 mx-2.5">
-              <LanguageSwitcher lang={lang} />
-            </div>
             <CartButton
               className="hidden lg:flex xl:mx-3.5 mx-2.5"
               lang={lang}
