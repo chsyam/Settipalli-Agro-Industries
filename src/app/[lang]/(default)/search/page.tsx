@@ -6,6 +6,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Search',
+  robots: { index: false, follow: true },
 };
 
 function SearchBarFallback() {

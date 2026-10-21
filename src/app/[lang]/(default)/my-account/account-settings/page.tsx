@@ -3,6 +3,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Account Settings',
+  robots: { index: false, follow: true },
 };
 
 export default async function AccountDetailsPage({ params }: { params: any }) {

@@ -12,6 +12,7 @@ import { bundleData as bundle } from '@framework/static/bundle';
 
 export const metadata: Metadata = {
   title: 'Trendy',
+  robots: { index: false, follow: true },
 };
 
 export default async function Page({ params }: { params: any }) {

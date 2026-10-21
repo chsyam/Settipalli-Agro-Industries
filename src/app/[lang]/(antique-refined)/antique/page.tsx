@@ -14,6 +14,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Antique',
+  robots: { index: false, follow: true },
 };
 
 export default async function Page({ params }: { params: any }) {

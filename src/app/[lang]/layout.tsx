@@ -8,6 +8,7 @@ import { Metadata } from 'next';
 import ToasterProvider from 'src/app/provider/toaster-provider';
 import Providers from 'src/app/provider/provider';
 import { Analytics } from '@vercel/analytics/next';
+import { siteSettings } from '@settings/site-settings';
 
 // external
 import 'react-toastify/dist/ReactToastify.css';
@@ -34,10 +35,38 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(siteSettings.url),
   title: {
-    template: 'Settipalli Agro Industries | %s',
-    default: 'Settipalli Agro Industries',
+    template: `%s | ${siteSettings.name}`,
+    default: `${siteSettings.name} | Farm-Fresh Groceries Online`,
   },
+  description: siteSettings.description,
+  applicationName: siteSettings.name,
+  keywords: [
+    'Settipalli Agro Industries',
+    'Settipalli',
+    'agro products',
+    'farm fresh vegetables',
+    'fresh fruits',
+    'online grocery',
+    'grains and pulses',
+    'grocery delivery',
+  ],
+  openGraph: {
+    type: 'website',
+    siteName: siteSettings.name,
+    title: siteSettings.name,
+    description: siteSettings.description,
+    url: '/',
+    images: [{ url: '/assets/images/logo.png', alt: siteSettings.name }],
+  },
+  twitter: {
+    card: 'summary',
+    title: siteSettings.name,
+    description: siteSettings.description,
+    images: ['/assets/images/logo.png'],
+  },
+  robots: { index: true, follow: true },
 };
 
 export async function generateStaticParams() {

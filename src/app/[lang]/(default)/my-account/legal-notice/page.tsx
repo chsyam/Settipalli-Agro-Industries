@@ -2,7 +2,8 @@ import Legal from '@components/my-account/notice';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Notice',
+  title: 'Legal Notice',
+  robots: { index: false, follow: true },
 };
 
 export default async function LegalNotice({ params }: { params: any }) {

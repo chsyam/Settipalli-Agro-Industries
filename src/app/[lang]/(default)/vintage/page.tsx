@@ -13,6 +13,7 @@ import CategoryWithProduct from './category-with-products';
 
 export const metadata: Metadata = {
   title: 'Vintage',
+  robots: { index: false, follow: true },
 };
 
 export default async function Page({ params }: { params: any }) {

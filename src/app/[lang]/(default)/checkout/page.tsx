@@ -6,6 +6,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Checkout',
+  robots: { index: false, follow: true },
 };
 
 export default async function CheckoutPage({ params }: { params: any }) {

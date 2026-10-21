@@ -5,7 +5,9 @@ import { Metadata } from 'next';
 import { Suspense } from 'react';
 
 export const metadata: Metadata = {
-  title: 'Products',
+  title: 'Shop Fresh Groceries & Agro Products',
+  description:
+    'Browse farm-fresh vegetables, fruits, grains and everyday groceries from Settipalli Agro Industries, delivered to your door.',
 };
 
 function SearchBarFallback() {

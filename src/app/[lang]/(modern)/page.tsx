@@ -15,9 +15,11 @@ import BannerCard from '@components/cards/banner-card';
 import { bundleDataTwo as bundle } from '@framework/static/bundle';
 
 export const metadata: Metadata = {
-  title: 'Grocery & Food Store React Template',
+  title: {
+    absolute: 'Settipalli Agro Industries | Farm-Fresh Vegetables & Groceries Online',
+  },
   description:
-    'Fastest E-commerce template built with React, NextJS, TypeScript, React-Query and Tailwind CSS.',
+    'Shop farm-fresh vegetables, fruits, grains and everyday groceries online from Settipalli Agro Industries. Quality produce sourced directly from local farmers.',
 };
 
 export default async function Page({ params }: { params: any }) {

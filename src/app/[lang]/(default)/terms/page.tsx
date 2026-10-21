@@ -4,7 +4,9 @@ import { Metadata } from 'next';
 import TermsPageContent from './terms-page-content';
 
 export const metadata: Metadata = {
-  title: 'Terms',
+  title: 'Terms & Conditions',
+  description:
+    'The terms and conditions for using the Settipalli Agro Industries website and placing orders.',
 };
 
 export default async function Page({ params }: { params: any }) {

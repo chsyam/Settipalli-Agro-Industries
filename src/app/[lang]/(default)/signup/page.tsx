@@ -3,7 +3,8 @@ import Divider from '@components/ui/divider';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Sign Up',
+  title: 'Create an Account',
+  robots: { index: false, follow: true },
 };
 
 export default async function Page({ params }: { params: any }) {

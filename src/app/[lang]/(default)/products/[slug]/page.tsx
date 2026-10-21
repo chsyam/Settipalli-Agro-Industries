@@ -5,6 +5,13 @@ import PopcornJerkyProductFeed from '@components/product/feeds/popcorn-jerky-pro
 import RelatedProductFeed from '@components/product/feeds/related-product-feed';
 import Breadcrumb from '@components/ui/breadcrumb';
 import Divider from '@components/ui/divider';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Product Details',
+  description:
+    'Product details, prices and availability at Settipalli Agro Industries.',
+};
 
 export default async function Page({ params }: { params: any }) {
   const { lang } = await params;

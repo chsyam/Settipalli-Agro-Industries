@@ -7,7 +7,9 @@ import BannerGridTwo from '@components/common/banner-grid-two';
 import { bannerGridTwo as banners } from '@framework/static/banner';
 
 export const metadata: Metadata = {
-  title: 'Bundles',
+  title: 'Grocery Bundles',
+  description:
+    'Save more with curated bundles of fresh produce and everyday groceries from Settipalli Agro Industries.',
 };
 
 export default async function Page({ params }: { params: any }) {

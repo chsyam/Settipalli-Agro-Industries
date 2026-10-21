@@ -5,6 +5,8 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Shops',
+  description:
+    'Explore shops on Settipalli Agro Industries offering fresh produce, grains and quality groceries.',
 };
 
 export default async function Page({ params }: { params: any }) {

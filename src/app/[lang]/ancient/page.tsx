@@ -17,6 +17,7 @@ import CartSidebar from '@components/cart/cart-sidebar';
 
 export const metadata: Metadata = {
   title: 'Ancient',
+  robots: { index: false, follow: true },
 };
 
 export default async function Page({ params }: { params: any }) {

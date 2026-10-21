@@ -6,7 +6,9 @@ import Accordion from '@components/ui/accordion';
 import { faq } from '@settings/faq-settings';
 
 export const metadata: Metadata = {
-  title: 'FAQ',
+  title: 'Frequently Asked Questions',
+  description:
+    'Answers to common questions about ordering, delivery, payments and returns at Settipalli Agro Industries.',
 };
 
 export default async function Page({ params }: { params: any }) {

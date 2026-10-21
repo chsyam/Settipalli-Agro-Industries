@@ -9,10 +9,11 @@ import siteLogo from 'public/assets/images/logo.png';
 export const siteSettings = {
   name: 'Settipalli Agro Industries',
   description:
-    'Fastest E-commerce template built with React, NextJS, TypeScript, TanStack-React-Query and Tailwind CSS.',
+    'Shop farm-fresh vegetables, fruits, grains and everyday groceries online from Settipalli Agro Industries. Quality produce sourced directly from local farmers.',
+  url: 'https://www.settipalliagroindustries.com',
   author: {
-    name: 'REDQ',
-    websiteUrl: 'https://redq.io',
+    name: 'Settipalli Agro Industries',
+    websiteUrl: 'https://settipalliagroindustries.com',
     address: '',
   },
   logo: {

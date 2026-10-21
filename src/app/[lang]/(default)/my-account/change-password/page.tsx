@@ -3,6 +3,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Change Password',
+  robots: { index: false, follow: true },
 };
 
 export default async function ChangePasswordPage({ params }: { params: any }) {
