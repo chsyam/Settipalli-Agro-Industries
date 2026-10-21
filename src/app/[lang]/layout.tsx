@@ -7,6 +7,7 @@ import ManagedDrawer from '@components/common/drawer/managed-drawer';
 import { Metadata } from 'next';
 import ToasterProvider from 'src/app/provider/toaster-provider';
 import Providers from 'src/app/provider/provider';
+import { Analytics } from '@vercel/analytics/next';
 
 // external
 import 'react-toastify/dist/ReactToastify.css';
@@ -66,6 +67,7 @@ export default async function RootLayout({
             <ToasterProvider />
           </ManagedUIContext>
         </Providers>
+        <Analytics />
       </body>
     </html>
   );
