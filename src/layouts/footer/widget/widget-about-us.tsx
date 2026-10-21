@@ -27,7 +27,7 @@ const WidgetAbout: React.FC<AboutProps> = ({ lang, social, className }) => {
       <div className="flex flex-col text-center sm:ltr:text-left sm:rtl:text-right max-w-[300px] mx-auto sm:ltr:ml-0 sm:rtl:mr-0 pb-6 sm:pb-5">
         <Logo
           href={ROUTES.HOME}
-          className="mx-auto mb-3 lg:mb-5 sm:ltr:ml-0 sm:rtl:mr-0"
+          className="mx-auto mb-3 lg:mb-5 sm:ltr:ml-0 sm:rtl:mr-0 !max-w-[200px]"
         />
         <Text>{t('text-about-us')}</Text>
       </div>

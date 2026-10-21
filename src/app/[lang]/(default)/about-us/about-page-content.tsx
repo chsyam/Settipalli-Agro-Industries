@@ -100,7 +100,7 @@ export default function AboutPageContent({ lang }: { lang: string }) {
             />
             <p className="text-brand-dark font-medium text-base lg:text-lg leading-7 2xl:text-[20px] lg:leading-loose lg:mt-4 mb-3.5">
               {t(aboutSetting.titleThree)} &nbsp;
-              <a href="mailto:press@borobazar.com">press@borobazar.com</a>.
+              <a href="mailto:press@settipalli-agro-industries.com">press@settipalli-agro-industries.com</a>.
             </p>
             <div
               className="text-sm leading-7 text-brand-dark opacity-70 lg:text-15px lg:leading-loose"

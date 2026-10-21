@@ -61,7 +61,7 @@ function Header({ lang }: { lang: string }) {
               <MenuIcon />
             </button>
 
-            <Logo className="-mt-1" />
+            <Logo className="-mt-1 !max-w-[160px] lg:!max-w-[200px]" />
           </div>
 
           <HeaderMenu

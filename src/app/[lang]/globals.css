@@ -224,17 +224,17 @@ input:checked + .slider:before {
 }
 
 /* Breadcrumb truncate last child */
-.borobazarBreadcrumb li:last-child {
+.settipalli-agro-industriesBreadcrumb li:last-child {
   @apply font-medium truncate text-brand-dark;
 }
-.style-variant-white .borobazarBreadcrumb ol > li > a > svg,
-.style-variant-white .borobazarBreadcrumb ol > li > a {
+.style-variant-white .settipalli-agro-industriesBreadcrumb ol > li > a > svg,
+.style-variant-white .settipalli-agro-industriesBreadcrumb ol > li > a {
   @apply text-brand-light text-opacity-70;
 }
-.style-variant-white .borobazarBreadcrumb ol > li > svg {
+.style-variant-white .settipalli-agro-industriesBreadcrumb ol > li > svg {
   @apply text-opacity-50 text-brand-light;
 }
-.style-variant-white .borobazarBreadcrumb ol > li:last-of-type > a {
+.style-variant-white .settipalli-agro-industriesBreadcrumb ol > li:last-of-type > a {
   @apply text-brand-light;
 }
 

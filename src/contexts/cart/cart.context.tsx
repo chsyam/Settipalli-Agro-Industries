@@ -29,7 +29,7 @@ export const useCart = () => {
 
 export function CartProvider(props: React.PropsWithChildren<any>) {
   const [savedCart, saveCart] = useLocalStorage(
-    `borobazar-cart`,
+    `settipalli-agro-industries-cart`,
     JSON.stringify(initialState),
   );
   const [state, dispatch] = React.useReducer(

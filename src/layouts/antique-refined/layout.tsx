@@ -13,7 +13,7 @@ import { useIsMounted } from '@utils/use-is-mounted';
 function ClientRenderedHightLightedBar({ lang }: { lang: string }) {
   const { t } = useTranslation(lang, 'common');
   const [highlightedBar, setHighlightedBar] = useSessionStorage(
-    'borobazar-highlightedBar',
+    'settipalli-agro-industries-highlightedBar',
     'false',
   );
   return (

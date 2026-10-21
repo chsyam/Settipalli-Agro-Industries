@@ -35,8 +35,8 @@ const manrope = Manrope({
 
 export const metadata: Metadata = {
   title: {
-    template: 'BoroBazar | %s',
-    default: 'BoroBazar',
+    template: 'Settipalli Agro Industries | %s',
+    default: 'Settipalli Agro Industries',
   },
 };
 

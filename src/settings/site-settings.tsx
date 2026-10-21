@@ -4,10 +4,10 @@ import { CNFlag } from '@components/icons/language/CNFlag';
 import { USFlag } from '@components/icons/language/USFlag';
 import { DEFlag } from '@components/icons/language/DEFlag';
 import { ESFlag } from '@components/icons/language/ESFlag';
-import siteLogo from 'public/assets/images/logo.svg';
+import siteLogo from 'public/assets/images/logo.png';
 
 export const siteSettings = {
-  name: 'BoroBazar',
+  name: 'Settipalli Agro Industries',
   description:
     'Fastest E-commerce template built with React, NextJS, TypeScript, TanStack-React-Query and Tailwind CSS.',
   author: {
@@ -17,7 +17,7 @@ export const siteSettings = {
   },
   logo: {
     url: siteLogo,
-    alt: 'BoroBazar',
+    alt: 'Settipalli Agro Industries',
     href: '/en',
     width: 128,
     height: 30,
